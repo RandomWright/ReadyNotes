@@ -24,6 +24,7 @@ public class Note {
         id = UUID.randomUUID();
         create = new Date();
         editDate = create;
+        picPath = "none";
     }
 
     public Note(String notes){
@@ -56,7 +57,7 @@ public class Note {
     }
 
     public String getCatString(){
-        if (categories.length == 0)
+        if (categories == null || categories.length == 0)
             return "";
         String all = categories[0];
 
@@ -93,5 +94,10 @@ public class Note {
 
     public void setPicPath(String picPath) {
         this.picPath = picPath;
+    }
+
+    @Override
+    public String toString(){
+        return notes;
     }
 }

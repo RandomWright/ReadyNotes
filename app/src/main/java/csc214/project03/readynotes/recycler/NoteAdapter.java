@@ -1,6 +1,7 @@
 package csc214.project03.readynotes.recycler;
 
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,10 +38,12 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteHolder> {
 
     @Override
     public int getItemCount() {
-        return 0;
+        return mNoteList.size();
     }
 
     public void update(List<Note> list){
+        Log.e("UPDATE", list.toString());
         mNoteList = list;
+        notifyDataSetChanged();
     }
 }

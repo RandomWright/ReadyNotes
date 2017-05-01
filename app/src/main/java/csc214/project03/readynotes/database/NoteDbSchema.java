@@ -6,6 +6,7 @@ package csc214.project03.readynotes.database;
  */
 
 public class NoteDbSchema {
+    public static final int VERSION = 1;
     public static final String DATABASE_NAME = "notes.db";
 
     public static final class NoteTable {
@@ -14,7 +15,7 @@ public class NoteDbSchema {
         public static final class Cols {
             public static final String ID = "id";
             public static final String NOTE = "note";
-            public static final String CREATE = "create";
+            public static final String CREATE = "createDate";
             public static final String EDIT = "edit";
             public static final String PICPATH = "picture_path";
             public static final String CATEGORY = "categories";

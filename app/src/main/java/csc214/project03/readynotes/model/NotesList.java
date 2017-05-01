@@ -4,6 +4,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,10 +22,11 @@ import csc214.project03.readynotes.database.NoteDbSchema.NoteTable;
 public class NotesList {
     private static NotesList sNotes;
 
+    private static final String TAG = "NOTELIST";
     private final SQLiteDatabase mNoteDatabase;
 
     public NotesList(Context context){
-        mNoteDatabase = new NoteDbHelper(context.getApplicationContext()).getWritableDatabase();
+        mNoteDatabase = new NoteDbHelper(context).getWritableDatabase();
     }
 
     public static synchronized NotesList getNotes(Context context){
@@ -38,6 +40,11 @@ public class NotesList {
     public void addNote(Note note){
         ContentValues values = getNotesValues(note);
         mNoteDatabase.insert(NoteTable.TABLENAME, null, values);
+    }
+
+    public void deleteNote(Note note){
+        String[] whereArgs = new String[] {note.getId().toString()};
+        mNoteDatabase.delete(NoteTable.TABLENAME, "_id=?", whereArgs);
     }
 
     public void updateNote(Note note){
@@ -57,7 +64,11 @@ public class NotesList {
             wrapper.moveToFirst();
             while (!wrapper.isAfterLast()) {
                 Note note = wrapper.getNote();
-                list.add(note);
+                if(note.getNotes().equals(""))
+                    deleteNote(note);
+                else{
+                    list.add(note);
+                }
                 wrapper.moveToNext();
             }
         }finally {
@@ -93,6 +104,7 @@ public class NotesList {
         values.put(NoteTable.Cols.PICPATH, note.getPicPath());
         values.put(NoteTable.Cols.CATEGORY, note.getCatString());
 
+        Log.e(TAG, values.toString());
         return values;
     }
 }

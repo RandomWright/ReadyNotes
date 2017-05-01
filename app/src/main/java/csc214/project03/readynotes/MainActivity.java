@@ -7,6 +7,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import java.util.List;
 
@@ -40,7 +41,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String notes = mNote.getText().toString();
-                mainNotes.addNote(new Note(notes));
+                if(notes != ""){
+                    mainNotes.addNote(new Note(notes));
+                    Toast.makeText(getApplicationContext(), "Note saved", Toast.LENGTH_SHORT).show();
+
+                }
+
+                update();
             }
         });
 
