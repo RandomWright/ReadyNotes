@@ -41,31 +41,6 @@ public class MainActivity extends AppCompatActivity {
                     .commit();
         }
 
-        /**
-        mainNotes = NotesList.getNotes(getApplicationContext());
-
-        mNote = (EditText)findViewById(R.id.noteText);
-
-        mRecycler = (RecyclerView)findViewById(R.id.main_frame);
-        mRecycler.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-
-        mSave = (Button)findViewById(R.id.saveButton);
-        mSave.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String notes = mNote.getText().toString();
-                if(notes != ""){
-                    mainNotes.addNote(new Note(notes));
-                    Toast.makeText(getApplicationContext(), "Note saved", Toast.LENGTH_SHORT).show();
-
-                }
-
-                update();
-            }
-        });
-
-        update();
-        **/
     }
 
 }

@@ -1,6 +1,7 @@
 package csc214.project03.readynotes;
 
 
+import android.app.FragmentManager;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -34,6 +35,7 @@ import csc214.project03.readynotes.recycler.NoteAdapter;
 public class MainFragment extends Fragment {
 
     public final int REQUEST_IMAGE_CAPTURE = 3;
+    public static int REQUEST_SHOW_PIC = 4;
     private static String TAG = "MAIN FRAGMENT";
 
     private Button mSave;
@@ -45,6 +47,7 @@ public class MainFragment extends Fragment {
     private NoteAdapter mAdapter;
     private File mPhotoFile;
     private String mCurrentPhotoPath;
+    private boolean yesPhoto;
 
 
     public MainFragment() {
@@ -57,6 +60,7 @@ public class MainFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_main, container, false);
+        final Note note = new Note();
 
         mainNotes = NotesList.getNotes(getContext());
 
@@ -73,7 +77,9 @@ public class MainFragment extends Fragment {
                 Log.d(TAG, "Button Clicked");
                 String notes = mNote.getText().toString();
                 if(!notes.equals("")){
-                    mainNotes.addNote(new Note(notes));
+                    note.setNotes(notes);
+                    note.setPicPath(mCurrentPhotoPath);
+                    mainNotes.addNote(note);
                     Toast.makeText(getContext(), "Note saved", Toast.LENGTH_SHORT).show();
 
                 }
@@ -82,15 +88,28 @@ public class MainFragment extends Fragment {
             }
         });
 
+       yesPhoto = false;
+
         mPhotoButton = (Button)view.findViewById(R.id.add_Photo_Button);
         mPhotoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                try{
-                    takeAPhoto();
-                    mPhotoButton.setText("View Photo");
-                }catch (IOException e){
-                    Log.e(TAG, "IOException" + e.getMessage());
+                if(yesPhoto){
+                    FragmentManager manager = getFragmentManager();
+                    ImageDialogFragment dialog = ImageDialogFragment.newInstance(mCurrentPhotoPath);
+                    dialog.setTargetFragment(MainFragment.this, REQUEST_SHOW_PIC);
+                    dialog.show(manager, "PHOTO");
+
+                }
+                else {
+                    try {
+                        takeAPhoto();
+                        mPhotoButton.setText("View Photo");
+                        yesPhoto = true;
+                        note.setPicPath(mCurrentPhotoPath);
+                    } catch (IOException e) {
+                        Log.e(TAG, "IOException" + e.getMessage());
+                    }
                 }
             }
         });

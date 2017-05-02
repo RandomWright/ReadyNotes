@@ -13,6 +13,13 @@ public class Category {
     private String[] parameters;
     private TimeFrame timeSlot;
 
+    public Category(String title, String[] para, TimeFrame time){
+        this.title = title;
+        notes = new ArrayList<>();
+        parameters = para;
+        timeSlot = time;
+    }
+
 
     public boolean sort(Note note){ //Will sort the note if it is in the time slot or has key words.
         boolean yes = false;

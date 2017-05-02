@@ -21,12 +21,15 @@ import csc214.project03.readynotes.database.NoteDbSchema.NoteTable;
 
 public class NotesList {
     private static NotesList sNotes;
+    private static ArrayList<Category> sCategoryList;
 
     private static final String TAG = "NOTELIST";
     private final SQLiteDatabase mNoteDatabase;
 
     public NotesList(Context context){
         mNoteDatabase = new NoteDbHelper(context).getWritableDatabase();
+        sCategoryList = new ArrayList<Category>();
+        sCategoryList.add(new Category("Money", new String[]{"cash", "money", "$", "dollar"}, null));
     }
 
     public static synchronized NotesList getNotes(Context context){
