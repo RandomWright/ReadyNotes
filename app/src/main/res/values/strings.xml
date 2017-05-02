@@ -2,4 +2,8 @@
     <string name="app_name">ReadyNotes</string>
     <string name="save">Save</string>
     <string name="this_is_some_text">This is some text. Blah blah blah blah</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_photo">Add Photo</string>
 </resources>

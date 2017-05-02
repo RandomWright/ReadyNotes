@@ -1,5 +1,8 @@
 package csc214.project03.readynotes;
 
+import android.app.Fragment;
+import android.app.FragmentManager;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -17,18 +20,28 @@ import csc214.project03.readynotes.recycler.NoteAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button mSave;
-    private EditText mNote;
-    private NotesList mainNotes;
+    //private Button mSave;
+    //private EditText mNote;
+    //private NotesList mainNotes;
 
-    private RecyclerView mRecycler;
-    private NoteAdapter mAdapter;
+    //private RecyclerView mRecycler;
+    //private NoteAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        FragmentManager manager = getFragmentManager();
+        Fragment fragment = manager.findFragmentById(R.id.frame_main_act);
+        if(fragment == null) {
+            fragment = new MainFragment();
+            manager.beginTransaction()
+                    .add(R.id.frame_main_act, fragment)
+                    .commit();
+        }
+
+        /**
         mainNotes = NotesList.getNotes(getApplicationContext());
 
         mNote = (EditText)findViewById(R.id.noteText);
@@ -52,16 +65,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         update();
+        **/
     }
 
-    public void update(){
-        List<Note> noteList = mainNotes.getAllNotes();
-        if(mAdapter == null){
-            mAdapter = new NoteAdapter(noteList);
-            mRecycler.setAdapter(mAdapter);
-        }
-        else{
-            mAdapter.update(noteList);
-        }
-    }
 }
