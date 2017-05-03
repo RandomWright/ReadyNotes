@@ -26,6 +26,7 @@ public class Category {
         for(String para: parameters) {
             if (note.getNotes().toLowerCase().contains(para)) {
                 note.addCat(title);
+                notes.add(note);
                 return true;
             }
         }
@@ -33,6 +34,7 @@ public class Category {
         if(timeSlot != null){
             if(timeSlot.inFrame(note.getCreate())){
                 note.addCat(title);
+                notes.add(note);
                 return true;
             }
         }

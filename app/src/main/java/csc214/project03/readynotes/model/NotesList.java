@@ -22,7 +22,7 @@ import csc214.project03.readynotes.database.NoteDbSchema.NoteTable;
 
 public class NotesList {
     private static NotesList sNotes;
-    private static ArrayList<Category> sCategoryList;
+    public ArrayList<Category> sCategoryList;
 
     private static final String TAG = "NOTELIST";
     private final SQLiteDatabase mNoteDatabase;

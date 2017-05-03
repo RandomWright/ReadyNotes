@@ -9,4 +9,6 @@
     <string name="edit_date">Edit Date</string>
     <string name="create_date">Create Date</string>
     <string name="none">None</string>
+    <string name="main">Main</string>
+    <string name="sort">Sort</string>
 </resources>

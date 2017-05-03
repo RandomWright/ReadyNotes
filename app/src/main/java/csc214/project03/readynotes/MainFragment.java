@@ -46,7 +46,6 @@ public class MainFragment extends Fragment {
 
     private RecyclerView mRecycler;
     private NoteAdapter mAdapter;
-    private File mPhotoFile;
     private String mCurrentPhotoPath;
     private boolean yesPhoto;
 
@@ -64,13 +63,19 @@ public class MainFragment extends Fragment {
         final Note note = new Note();
 
         mainNotes = NotesList.getNotes(getContext());
-        //mainNotes.sortAll();
+        mainNotes.sortAll();
 
         mRecycler = (RecyclerView)view.findViewById(R.id.main_frame);
         mRecycler.setLayoutManager(new LinearLayoutManager(getContext()));
         update();
 
         mNote = (EditText)view.findViewById(R.id.noteText);
+
+        if (savedInstanceState != null) {
+            mNote.setText(savedInstanceState.getString("NOTE"));
+            mCurrentPhotoPath = savedInstanceState.getString("PATH");
+            yesPhoto = savedInstanceState.getBoolean("YES");
+        }
 
         mSave = (Button)view.findViewById(R.id.saveButton);
         mSave.setOnClickListener(new View.OnClickListener() {
@@ -146,6 +151,14 @@ public class MainFragment extends Fragment {
             mAdapter.update(noteList);
         }
     }
+    
+    @Override
+    public void onSaveInstanceState(Bundle state){
+        super.onSaveInstanceState(state);
+        state.putString("PATH", mCurrentPhotoPath);
+        state.putString("NOTE", mNote.getText().toString());
+        state.putBoolean("YES", yesPhoto);
+    }
 
     public void takeAPhoto() throws IOException{
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
@@ -155,14 +168,14 @@ public class MainFragment extends Fragment {
             String filename = "IMG_" + UUID.randomUUID().toString();
             //make a file in the external photos directory
             File picturesDir = getActivity().getExternalFilesDir(Environment.DIRECTORY_PICTURES);
-            mPhotoFile = File.createTempFile(filename, ".jpg", picturesDir);
+            File photoFile = File.createTempFile(filename, ".jpg", picturesDir);
 
-            mCurrentPhotoPath = mPhotoFile.getAbsolutePath();
+            mCurrentPhotoPath = photoFile.getAbsolutePath();
 
-            Log.d(TAG, "photo location: " + mPhotoFile.toString());
+            Log.d(TAG, "photo location: " + photoFile.toString());
 
-            if (mPhotoFile != null) {
-                Uri photoURI = FileProvider.getUriForFile(getContext(), "csc214.project03.readynotes.fileprovider", mPhotoFile);
+            if (photoFile != null) {
+                Uri photoURI = FileProvider.getUriForFile(getContext(), "csc214.project03.readynotes.fileprovider", photoFile);
                 intent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
                 startActivityForResult(intent, REQUEST_IMAGE_CAPTURE);
             }
