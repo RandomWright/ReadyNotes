@@ -7,6 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import csc214.project03.readynotes.database.NoteCursorWrapper;
@@ -30,17 +31,34 @@ public class NotesList {
         mNoteDatabase = new NoteDbHelper(context).getWritableDatabase();
         sCategoryList = new ArrayList<Category>();
         sCategoryList.add(new Category("Money", new String[]{"cash", "money", "$", "dollar"}, null));
+        sCategoryList.add(new Category("CSC 214", new String[]{"csc 214", "android", "CSC214", "Mobile App", "2017SPRING", "ROBERT STJACQUES"},
+                new TimeFrame(new int[]{3,5}, 15, 25, 16, 40)));
+        sCategoryList.add(new Category("Weekday", new String[]{"Weekday"},
+                new TimeFrame(new int[]{2,3,4,5,6}, 0, 0, 24, 0)));
     }
 
     public static synchronized NotesList getNotes(Context context){
         if(sNotes == null){
             sNotes = new NotesList(context);
         }
-
         return sNotes;
     }
 
+    public void sortAll(){
+        Log.d(TAG, "SORT ALL");
+        List<Note> noteList = getAllNotes();
+        for (Category c: sCategoryList) {
+            for (Note n: noteList) {
+                c.sort(n);
+                updateNote(n);
+            }
+        }
+    }
+
     public void addNote(Note note){
+        for (Category c: sCategoryList) {
+            c.sort(note);
+        }
         ContentValues values = getNotesValues(note);
         mNoteDatabase.insert(NoteTable.TABLENAME, null, values);
     }
@@ -52,6 +70,7 @@ public class NotesList {
 
     public void updateNote(Note note){
         String id = note.getId().toString();
+        note.setEditDate(new Date());
         ContentValues values = getNotesValues(note);
         mNoteDatabase.update(NoteTable.TABLENAME,
                 values,

@@ -22,21 +22,22 @@ public class Category {
 
 
     public boolean sort(Note note){ //Will sort the note if it is in the time slot or has key words.
-        boolean yes = false;
 
         for(String para: parameters) {
             if (note.getNotes().toLowerCase().contains(para)) {
-                yes = true;
+                note.addCat(title);
+                return true;
             }
         }
 
         if(timeSlot != null){
             if(timeSlot.inFrame(note.getCreate())){
-                yes = true;
+                note.addCat(title);
+                return true;
             }
         }
 
-        return yes;
+        return false;
     }
 
     public String getTitle() {

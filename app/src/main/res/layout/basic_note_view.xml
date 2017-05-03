@@ -19,5 +19,13 @@
         android:textSize="10dp"
         android:hint="JUNE 14th"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/basicCatText"
+        android:textSize="10dp"
+        android:hint="None"/>
+
+
 
 </LinearLayout>

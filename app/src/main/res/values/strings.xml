@@ -6,4 +6,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="add_photo">Add Photo</string>
+    <string name="edit_date">Edit Date</string>
+    <string name="create_date">Create Date</string>
+    <string name="none">None</string>
 </resources>

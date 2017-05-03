@@ -1,6 +1,11 @@
 package csc214.project03.readynotes.model;
 
+import android.util.Log;
+
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
+import java.util.List;
 import java.util.UUID;
 
 /**
@@ -9,6 +14,8 @@ import java.util.UUID;
  */
 
 public class Note {
+    private static final String TAG = "NOTE";
+
     private UUID id;
     private String notes;
     private Date create;
@@ -60,12 +67,28 @@ public class Note {
         if (categories == null || categories.length == 0)
             return "";
         String all = categories[0];
+        Log.d(TAG, all);
 
         for(int i = 1; i < categories.length; i++){
-            all = all + "|" + categories[i];
+            all = all + "-" + categories[i];
         }
-
+        Log.d(TAG, all);
         return all;
+    }
+
+    public void addCat(String cat){
+        Log.d(TAG, cat + " SORT");
+        if(categories == null){
+            categories = new String[]{cat};
+        }
+        else {
+            List<String> list = new ArrayList<String>(Arrays.asList(categories));
+            if(!list.contains(cat)){
+                list.add(cat);
+            }
+            String[] catArr = new String[list.size()];
+            categories = list.toArray(catArr);
+        }
     }
 
     public void setCategories(String[] categories) {

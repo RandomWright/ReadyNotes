@@ -2,6 +2,7 @@ package csc214.project03.readynotes.database;
 
 import android.database.Cursor;
 import android.database.CursorWrapper;
+import android.util.Log;
 
 import java.util.Date;
 import java.util.UUID;
@@ -30,7 +31,7 @@ public class NoteCursorWrapper extends CursorWrapper{
         note.setCreate(new Date(getLong(getColumnIndex(NoteTable.Cols.CREATE))));
         note.setEditDate(new Date(getLong(getColumnIndex(NoteTable.Cols.EDIT))));
         note.setPicPath(getString(getColumnIndex(NoteTable.Cols.PICPATH)));
-        String[] cat = getString(getColumnIndex(NoteTable.Cols.CATEGORY)).split("|");
+        String[] cat = getString(getColumnIndex(NoteTable.Cols.CATEGORY)).split("-");
         note.setCategories(cat);
 
         return note;

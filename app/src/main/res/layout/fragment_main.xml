@@ -34,7 +34,8 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Do Something"/>
+            android:id="@+id/emailButton"
+            android:text="Send as Email"/>
 
     </LinearLayout>
 

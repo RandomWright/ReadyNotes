@@ -40,6 +40,7 @@ public class MainFragment extends Fragment {
 
     private Button mSave;
     private Button mPhotoButton;
+    private Button mSendEmail;
     private EditText mNote;
     private NotesList mainNotes;
 
@@ -63,6 +64,7 @@ public class MainFragment extends Fragment {
         final Note note = new Note();
 
         mainNotes = NotesList.getNotes(getContext());
+        //mainNotes.sortAll();
 
         mRecycler = (RecyclerView)view.findViewById(R.id.main_frame);
         mRecycler.setLayoutManager(new LinearLayoutManager(getContext()));
@@ -114,6 +116,22 @@ public class MainFragment extends Fragment {
             }
         });
 
+        mSendEmail = (Button)view.findViewById(R.id.emailButton);
+        mSendEmail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Intent.ACTION_SEND);
+                i.setType("message/rfc822");
+                i.putExtra(Intent.EXTRA_SUBJECT, "ReadyNote");
+                i.putExtra(Intent.EXTRA_TEXT   , mNote.getText());
+                try {
+                    startActivity(Intent.createChooser(i, "Send mail..."));
+                } catch (android.content.ActivityNotFoundException ex) {
+                    Toast.makeText(getActivity(), "There are no email clients installed.", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
 
         return view;
     }
@@ -121,7 +139,7 @@ public class MainFragment extends Fragment {
     public void update(){
         List<Note> noteList = mainNotes.getAllNotes();
         if(mAdapter == null){
-            mAdapter = new NoteAdapter(noteList);
+            mAdapter = new NoteAdapter(noteList, MainFragment.this);
             mRecycler.setAdapter(mAdapter);
         }
         else{

@@ -1,5 +1,8 @@
 package csc214.project03.readynotes.recycler;
 
+import android.app.Activity;
+import android.app.Fragment;
+import android.app.FragmentManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -8,6 +11,8 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
+import csc214.project03.readynotes.FullNoteFragment;
+import csc214.project03.readynotes.MainFragment;
 import csc214.project03.readynotes.R;
 import csc214.project03.readynotes.model.Note;
 
@@ -18,8 +23,10 @@ import csc214.project03.readynotes.model.Note;
 public class NoteAdapter extends RecyclerView.Adapter<NoteHolder> {
 
     private List<Note> mNoteList;
+    private Fragment mFragment;
 
-    public NoteAdapter(List<Note> noteList){
+    public NoteAdapter(List<Note> noteList, Fragment fragment){
+        mFragment = fragment;
         mNoteList = noteList;
     }
 
@@ -32,8 +39,17 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteHolder> {
     }
 
     @Override
-    public void onBindViewHolder(NoteHolder holder, int position) {
+    public void onBindViewHolder(final NoteHolder holder, final int position) {
         holder.bindNote(mNoteList.get(position));
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager manager =  mFragment.getFragmentManager();
+                FullNoteFragment dialog = FullNoteFragment.newInstance(mNoteList.get(position));
+                dialog.setTargetFragment(mFragment, 3);
+                dialog.show(manager, "Note Full Dialog");
+            }
+        });
     }
 
     @Override
