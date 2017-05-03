@@ -1,0 +1,814 @@
+05-03 18:36:18.518 13773-13773/? I/art: Not late-enabling -Xcheck:jni (already on)
+05-03 18:36:18.518 13773-13773/? W/art: Unexpected CPU variant for X86 using defaults: x86
+05-03 18:36:18.706 13773-13773/csc214.project03.readynotes W/System: ClassLoader referenced unknown path: /data/app/csc214.project03.readynotes-2/lib/x86
+05-03 18:36:18.711 13773-13773/csc214.project03.readynotes I/InstantRun: starting instant run server: is main process
+05-03 18:36:18.774 13773-13773/csc214.project03.readynotes W/art: Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+05-03 18:36:18.897 13773-13802/csc214.project03.readynotes E/WVMExtractor: Failed to open libwvm.so: dlopen failed: library "libwvm.so" not found
+05-03 18:36:18.902 13773-13803/csc214.project03.readynotes I/OMXClient: MuxOMX ctor
+05-03 18:36:18.905 13773-13773/csc214.project03.readynotes D/NOTELIST: SORT ALL
+05-03 18:36:18.906 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new
+05-03 18:36:18.906 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.906 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.906 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978906 createDate=1493850612464 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_2ea428b5-81fc-4c0a-81ad-f7bfc8a14b131329626103.jpg note=this is new new id=a56c0686-0150-415a-8b0b-2a2c8f925e98 categories=Weekday
+05-03 18:36:18.913 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new
+05-03 18:36:18.913 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.913 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.913 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978913 createDate=1493850612464 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_2ea428b5-81fc-4c0a-81ad-f7bfc8a14b131329626103.jpg note=this is new new id=a56c0686-0150-415a-8b0b-2a2c8f925e98 categories=Weekday
+05-03 18:36:18.917 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new
+05-03 18:36:18.917 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.917 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.917 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978917 createDate=1493850612464 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_2ea428b5-81fc-4c0a-81ad-f7bfc8a14b131329626103.jpg note=this is new new id=a56c0686-0150-415a-8b0b-2a2c8f925e98 categories=Weekday
+05-03 18:36:18.921 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com
+05-03 18:36:18.921 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.921 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.921 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978921 createDate=1493843829387 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_01b52eff-143c-4406-979c-c77cc7f1b2dc650556758.jpg note=Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com id=da32be09-fe37-4e3c-a12a-741478b221fa categories=Weekday
+05-03 18:36:18.926 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com
+05-03 18:36:18.926 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.926 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.926 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978926 createDate=1493843829387 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_01b52eff-143c-4406-979c-c77cc7f1b2dc650556758.jpg note=Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com id=da32be09-fe37-4e3c-a12a-741478b221fa categories=Weekday
+05-03 18:36:18.930 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com
+05-03 18:36:18.931 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.931 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.931 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978931 createDate=1493843829387 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_01b52eff-143c-4406-979c-c77cc7f1b2dc650556758.jpg note=Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com id=da32be09-fe37-4e3c-a12a-741478b221fa categories=Weekday
+05-03 18:36:18.934 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE 1267ef20-8644-4da0-bda5-579b1aad3d8d this is a note
+05-03 18:36:18.934 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.934 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.934 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978934 createDate=1493842591864 picture_path=null note=this is a note id=1267ef20-8644-4da0-bda5-579b1aad3d8d categories=Weekday
+05-03 18:36:18.937 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE 1267ef20-8644-4da0-bda5-579b1aad3d8d this is a note
+05-03 18:36:18.937 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.937 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.937 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978937 createDate=1493842591864 picture_path=null note=this is a note id=1267ef20-8644-4da0-bda5-579b1aad3d8d categories=Weekday
+05-03 18:36:18.940 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE ca9db65d-3273-4953-8ca2-e91a0cc60601 thus is now more
+05-03 18:36:18.940 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.940 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.940 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978940 createDate=1493842746261 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_68d3891a-e00a-4e51-8c03-c5af1d4e7f7c901811722.jpg note=thus is now more id=ca9db65d-3273-4953-8ca2-e91a0cc60601 categories=Weekday
+05-03 18:36:18.943 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE ca9db65d-3273-4953-8ca2-e91a0cc60601 thus is now more
+05-03 18:36:18.943 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.943 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.943 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978943 createDate=1493842746261 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_68d3891a-e00a-4e51-8c03-c5af1d4e7f7c901811722.jpg note=thus is now more id=ca9db65d-3273-4953-8ca2-e91a0cc60601 categories=Weekday
+05-03 18:36:18.947 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE d72e233a-5c4c-416f-8019-28201d0671a7 this is a CSC 214 note
+05-03 18:36:18.948 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214
+05-03 18:36:18.948 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214-Weekday
+05-03 18:36:18.948 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978948 createDate=1493842861992 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_66e2ec83-788f-4880-9a51-8139dbd37c7e1686460326.jpg note=this is a CSC 214 note id=d72e233a-5c4c-416f-8019-28201d0671a7 categories=CSC 214-Weekday
+05-03 18:36:18.951 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE fc4f3be1-381f-452c-93f9-4d1d38a37dd7 hello jhehrgthdfghgdf
+05-03 18:36:18.951 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.951 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.951 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978951 createDate=1493850688484 picture_path=null note=hello jhehrgthdfghgdf id=fc4f3be1-381f-452c-93f9-4d1d38a37dd7 categories=Weekday
+05-03 18:36:18.954 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE fc4f3be1-381f-452c-93f9-4d1d38a37dd7 hello jhehrgthdfghgdf
+05-03 18:36:18.954 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.954 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.954 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978954 createDate=1493850688484 picture_path=null note=hello jhehrgthdfghgdf id=fc4f3be1-381f-452c-93f9-4d1d38a37dd7 categories=Weekday
+05-03 18:36:18.959 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new
+05-03 18:36:18.959 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.959 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.959 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978959 createDate=1493850612464 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_2ea428b5-81fc-4c0a-81ad-f7bfc8a14b131329626103.jpg note=this is new new id=a56c0686-0150-415a-8b0b-2a2c8f925e98 categories=Weekday
+05-03 18:36:18.963 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new
+05-03 18:36:18.963 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.963 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.963 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978963 createDate=1493850612464 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_2ea428b5-81fc-4c0a-81ad-f7bfc8a14b131329626103.jpg note=this is new new id=a56c0686-0150-415a-8b0b-2a2c8f925e98 categories=Weekday
+05-03 18:36:18.967 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new
+05-03 18:36:18.967 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.967 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.967 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978967 createDate=1493850612464 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_2ea428b5-81fc-4c0a-81ad-f7bfc8a14b131329626103.jpg note=this is new new id=a56c0686-0150-415a-8b0b-2a2c8f925e98 categories=Weekday
+05-03 18:36:18.969 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com
+05-03 18:36:18.969 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.969 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.970 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978969 createDate=1493843829387 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_01b52eff-143c-4406-979c-c77cc7f1b2dc650556758.jpg note=Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com id=da32be09-fe37-4e3c-a12a-741478b221fa categories=Weekday
+05-03 18:36:18.972 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com
+05-03 18:36:18.972 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.972 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.972 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978972 createDate=1493843829387 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_01b52eff-143c-4406-979c-c77cc7f1b2dc650556758.jpg note=Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com id=da32be09-fe37-4e3c-a12a-741478b221fa categories=Weekday
+05-03 18:36:18.976 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com
+05-03 18:36:18.976 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.976 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.976 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978976 createDate=1493843829387 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_01b52eff-143c-4406-979c-c77cc7f1b2dc650556758.jpg note=Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com id=da32be09-fe37-4e3c-a12a-741478b221fa categories=Weekday
+05-03 18:36:18.981 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE 1267ef20-8644-4da0-bda5-579b1aad3d8d this is a note
+05-03 18:36:18.981 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.981 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:18.981 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978981 createDate=1493842591864 picture_path=null note=this is a note id=1267ef20-8644-4da0-bda5-579b1aad3d8d categories=Weekday
+05-03 18:36:19.011 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE 1267ef20-8644-4da0-bda5-579b1aad3d8d this is a note
+05-03 18:36:19.012 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.012 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.012 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850979012 createDate=1493842591864 picture_path=null note=this is a note id=1267ef20-8644-4da0-bda5-579b1aad3d8d categories=Weekday
+05-03 18:36:19.018 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE ca9db65d-3273-4953-8ca2-e91a0cc60601 thus is now more
+05-03 18:36:19.019 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.019 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.019 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850979018 createDate=1493842746261 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_68d3891a-e00a-4e51-8c03-c5af1d4e7f7c901811722.jpg note=thus is now more id=ca9db65d-3273-4953-8ca2-e91a0cc60601 categories=Weekday
+05-03 18:36:19.027 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE ca9db65d-3273-4953-8ca2-e91a0cc60601 thus is now more
+05-03 18:36:19.027 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.027 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.027 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850979027 createDate=1493842746261 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_68d3891a-e00a-4e51-8c03-c5af1d4e7f7c901811722.jpg note=thus is now more id=ca9db65d-3273-4953-8ca2-e91a0cc60601 categories=Weekday
+05-03 18:36:19.036 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214 SORT
+05-03 18:36:19.036 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE d72e233a-5c4c-416f-8019-28201d0671a7 this is a CSC 214 note
+05-03 18:36:19.036 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214
+05-03 18:36:19.036 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214-Weekday
+05-03 18:36:19.036 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850979036 createDate=1493842861992 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_66e2ec83-788f-4880-9a51-8139dbd37c7e1686460326.jpg note=this is a CSC 214 note id=d72e233a-5c4c-416f-8019-28201d0671a7 categories=CSC 214-Weekday
+05-03 18:36:19.056 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE fc4f3be1-381f-452c-93f9-4d1d38a37dd7 hello jhehrgthdfghgdf
+05-03 18:36:19.056 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.056 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.056 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850979056 createDate=1493850688484 picture_path=null note=hello jhehrgthdfghgdf id=fc4f3be1-381f-452c-93f9-4d1d38a37dd7 categories=Weekday
+05-03 18:36:19.063 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE fc4f3be1-381f-452c-93f9-4d1d38a37dd7 hello jhehrgthdfghgdf
+05-03 18:36:19.063 13773-13806/csc214.project03.readynotes I/OMXClient: MuxOMX ctor
+05-03 18:36:19.064 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.064 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.064 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850979063 createDate=1493850688484 picture_path=null note=hello jhehrgthdfghgdf id=fc4f3be1-381f-452c-93f9-4d1d38a37dd7 categories=Weekday
+05-03 18:36:19.079 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:36:19.079 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new
+05-03 18:36:19.079 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.079 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.079 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850979079 createDate=1493850612464 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_2ea428b5-81fc-4c0a-81ad-f7bfc8a14b131329626103.jpg note=this is new new id=a56c0686-0150-415a-8b0b-2a2c8f925e98 categories=Weekday
+05-03 18:36:19.097 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:36:19.098 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new
+05-03 18:36:19.098 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.098 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.098 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850979098 createDate=1493850612464 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_2ea428b5-81fc-4c0a-81ad-f7bfc8a14b131329626103.jpg note=this is new new id=a56c0686-0150-415a-8b0b-2a2c8f925e98 categories=Weekday
+05-03 18:36:19.102 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:36:19.102 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new
+05-03 18:36:19.102 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.102 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.102 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850979102 createDate=1493850612464 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_2ea428b5-81fc-4c0a-81ad-f7bfc8a14b131329626103.jpg note=this is new new id=a56c0686-0150-415a-8b0b-2a2c8f925e98 categories=Weekday
+05-03 18:36:19.107 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:36:19.108 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com
+05-03 18:36:19.108 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.108 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.108 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850979108 createDate=1493843829387 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_01b52eff-143c-4406-979c-c77cc7f1b2dc650556758.jpg note=Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com id=da32be09-fe37-4e3c-a12a-741478b221fa categories=Weekday
+05-03 18:36:19.114 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:36:19.114 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com
+05-03 18:36:19.114 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.114 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.114 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850979114 createDate=1493843829387 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_01b52eff-143c-4406-979c-c77cc7f1b2dc650556758.jpg note=Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com id=da32be09-fe37-4e3c-a12a-741478b221fa categories=Weekday
+05-03 18:36:19.119 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:36:19.119 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com
+05-03 18:36:19.119 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.119 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.120 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850979119 createDate=1493843829387 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_01b52eff-143c-4406-979c-c77cc7f1b2dc650556758.jpg note=Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com id=da32be09-fe37-4e3c-a12a-741478b221fa categories=Weekday
+05-03 18:36:19.126 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:36:19.126 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE 1267ef20-8644-4da0-bda5-579b1aad3d8d this is a note
+05-03 18:36:19.126 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.126 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.126 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850979126 createDate=1493842591864 picture_path=null note=this is a note id=1267ef20-8644-4da0-bda5-579b1aad3d8d categories=Weekday
+05-03 18:36:19.133 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:36:19.133 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE 1267ef20-8644-4da0-bda5-579b1aad3d8d this is a note
+05-03 18:36:19.133 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.133 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.133 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850979133 createDate=1493842591864 picture_path=null note=this is a note id=1267ef20-8644-4da0-bda5-579b1aad3d8d categories=Weekday
+05-03 18:36:19.137 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:36:19.137 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE ca9db65d-3273-4953-8ca2-e91a0cc60601 thus is now more
+05-03 18:36:19.138 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.138 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.138 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850979138 createDate=1493842746261 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_68d3891a-e00a-4e51-8c03-c5af1d4e7f7c901811722.jpg note=thus is now more id=ca9db65d-3273-4953-8ca2-e91a0cc60601 categories=Weekday
+05-03 18:36:19.142 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:36:19.142 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE ca9db65d-3273-4953-8ca2-e91a0cc60601 thus is now more
+05-03 18:36:19.142 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.142 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.142 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850979142 createDate=1493842746261 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_68d3891a-e00a-4e51-8c03-c5af1d4e7f7c901811722.jpg note=thus is now more id=ca9db65d-3273-4953-8ca2-e91a0cc60601 categories=Weekday
+05-03 18:36:19.151 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:36:19.151 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE d72e233a-5c4c-416f-8019-28201d0671a7 this is a CSC 214 note
+05-03 18:36:19.151 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214
+05-03 18:36:19.151 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214-Weekday
+05-03 18:36:19.151 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850979151 createDate=1493842861992 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_66e2ec83-788f-4880-9a51-8139dbd37c7e1686460326.jpg note=this is a CSC 214 note id=d72e233a-5c4c-416f-8019-28201d0671a7 categories=CSC 214-Weekday
+05-03 18:36:19.155 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:36:19.155 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE fc4f3be1-381f-452c-93f9-4d1d38a37dd7 hello jhehrgthdfghgdf
+05-03 18:36:19.155 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.155 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.155 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850979155 createDate=1493850688484 picture_path=null note=hello jhehrgthdfghgdf id=fc4f3be1-381f-452c-93f9-4d1d38a37dd7 categories=Weekday
+05-03 18:36:19.158 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:36:19.158 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE fc4f3be1-381f-452c-93f9-4d1d38a37dd7 hello jhehrgthdfghgdf
+05-03 18:36:19.159 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.159 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.159 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850979159 createDate=1493850688484 picture_path=null note=hello jhehrgthdfghgdf id=fc4f3be1-381f-452c-93f9-4d1d38a37dd7 categories=Weekday
+05-03 18:36:19.305 13773-13817/csc214.project03.readynotes I/OpenGLRenderer: Initialized EGL, version 1.4
+05-03 18:36:19.305 13773-13817/csc214.project03.readynotes D/OpenGLRenderer: Swap behavior 1
+05-03 18:36:19.306 13773-13817/csc214.project03.readynotes W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-03 18:36:19.306 13773-13817/csc214.project03.readynotes D/OpenGLRenderer: Swap behavior 0
+05-03 18:36:19.486 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.486 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.491 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.491 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.491 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214
+05-03 18:36:19.491 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214-Weekday
+05-03 18:36:19.492 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.492 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:19.529 13773-13773/csc214.project03.readynotes W/art: Before Android 4.1, method int android.support.v7.widget.ListViewCompat.lookForSelectablePosition(int, boolean) would have incorrectly overridden the package-private method in android.widget.ListView
+05-03 18:36:19.543 13773-13821/csc214.project03.readynotes I/OMXClient: MuxOMX ctor
+05-03 18:36:19.967 13773-13834/csc214.project03.readynotes I/OMXClient: MuxOMX ctor
+05-03 18:36:20.086 13773-13837/csc214.project03.readynotes I/OMXClient: MuxOMX ctor
+05-03 18:36:20.386 13773-13848/csc214.project03.readynotes I/OMXClient: MuxOMX ctor
+05-03 18:36:20.465 13773-13851/csc214.project03.readynotes I/OMXClient: MuxOMX ctor
+05-03 18:36:23.225 13773-13773/csc214.project03.readynotes D/MAIN FRAGMENT: Button Clicked
+05-03 18:36:23.225 13773-13773/csc214.project03.readynotes E/NOTELIST: ADD 476ceb9b-81e2-467a-86f9-785945f732b7 blank
+05-03 18:36:23.226 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:36:23.226 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:23.226 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:23.226 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850978889 createDate=1493850978889 picture_path=null note=blank id=476ceb9b-81e2-467a-86f9-785945f732b7 categories=Weekday
+05-03 18:36:23.248 13773-13773/csc214.project03.readynotes E/UPDATE: [fc4f3be1-381f-452c-93f9-4d1d38a37dd7 hello jhehrgthdfghgdf, fc4f3be1-381f-452c-93f9-4d1d38a37dd7 hello jhehrgthdfghgdf, d72e233a-5c4c-416f-8019-28201d0671a7 this is a CSC 214 note, ca9db65d-3273-4953-8ca2-e91a0cc60601 thus is now more, ca9db65d-3273-4953-8ca2-e91a0cc60601 thus is now more, 1267ef20-8644-4da0-bda5-579b1aad3d8d this is a note, 1267ef20-8644-4da0-bda5-579b1aad3d8d this is a note, da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                     914-3299247
+                                                                     (914)329-9247
+                                                                     4325789697896
+                                                                     
+                                                                     gmail.com
+                                                                     google.com
+                                                                     help@gmail.com, da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                     914-3299247
+                                                                     (914)329-9247
+                                                                     4325789697896
+                                                                     
+                                                                     gmail.com
+                                                                     google.com
+                                                                     help@gmail.com, da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                     914-3299247
+                                                                     (914)329-9247
+                                                                     4325789697896
+                                                                     
+                                                                     gmail.com
+                                                                     google.com
+                                                                     help@gmail.com, a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new, a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new, a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new, 476ceb9b-81e2-467a-86f9-785945f732b7 blank]
+05-03 18:36:23.252 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:23.252 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:23.253 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:23.253 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:23.254 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214
+05-03 18:36:23.254 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214-Weekday
+05-03 18:36:23.255 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:23.255 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:24.162 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:24.162 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:24.180 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:24.180 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:24.198 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:24.198 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:24.217 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:24.217 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:24.230 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:24.230 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:24.322 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:24.322 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:24.575 13773-13775/csc214.project03.readynotes I/art: Do partial code cache collection, code=15KB, data=30KB
+05-03 18:36:24.575 13773-13775/csc214.project03.readynotes I/art: After code cache collection, code=15KB, data=30KB
+05-03 18:36:24.575 13773-13775/csc214.project03.readynotes I/art: Increasing code cache capacity to 128KB
+05-03 18:36:25.048 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:25.048 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:25.099 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:25.099 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:25.114 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:25.114 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:25.130 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:25.130 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:26.249 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:26.249 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:27.647 13773-13773/csc214.project03.readynotes E/NOTELIST: GET 476ceb9b-81e2-467a-86f9-785945f732b7 blank
+05-03 18:36:31.022 13773-13773/csc214.project03.readynotes D/MAIN FRAGMENT: Button Clicked
+05-03 18:36:31.022 13773-13773/csc214.project03.readynotes E/NOTELIST: ADD 476ceb9b-81e2-467a-86f9-785945f732b7 blank 2
+05-03 18:36:31.023 13773-13773/csc214.project03.readynotes E/NOTELIST: 476ceb9b-81e2-467a-86f9-785945f732b7
+05-03 18:36:31.023 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE 476ceb9b-81e2-467a-86f9-785945f732b7 blank 2
+05-03 18:36:31.023 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:31.023 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:31.024 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493850991023 createDate=1493850978889 picture_path=null note=blank 2 id=476ceb9b-81e2-467a-86f9-785945f732b7 categories=Weekday
+05-03 18:36:31.043 13773-13773/csc214.project03.readynotes E/UPDATE: [476ceb9b-81e2-467a-86f9-785945f732b7 blank 2, fc4f3be1-381f-452c-93f9-4d1d38a37dd7 hello jhehrgthdfghgdf, fc4f3be1-381f-452c-93f9-4d1d38a37dd7 hello jhehrgthdfghgdf, d72e233a-5c4c-416f-8019-28201d0671a7 this is a CSC 214 note, ca9db65d-3273-4953-8ca2-e91a0cc60601 thus is now more, ca9db65d-3273-4953-8ca2-e91a0cc60601 thus is now more, 1267ef20-8644-4da0-bda5-579b1aad3d8d this is a note, 1267ef20-8644-4da0-bda5-579b1aad3d8d this is a note, da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                     914-3299247
+                                                                     (914)329-9247
+                                                                     4325789697896
+                                                                     
+                                                                     gmail.com
+                                                                     google.com
+                                                                     help@gmail.com, da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                     914-3299247
+                                                                     (914)329-9247
+                                                                     4325789697896
+                                                                     
+                                                                     gmail.com
+                                                                     google.com
+                                                                     help@gmail.com, da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                     914-3299247
+                                                                     (914)329-9247
+                                                                     4325789697896
+                                                                     
+                                                                     gmail.com
+                                                                     google.com
+                                                                     help@gmail.com, a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new, a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new, a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new]
+05-03 18:36:31.048 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:31.048 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:32.329 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:32.329 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:32.333 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:32.333 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:32.401 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:32.401 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:34.014 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:34.014 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:34.308 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:34.308 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:34.782 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:34.782 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:36.000 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:36.000 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:36.650 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:36.650 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:36.668 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:36.668 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:37.016 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:37.016 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:37.094 13773-13775/csc214.project03.readynotes I/art: Do partial code cache collection, code=51KB, data=62KB
+05-03 18:36:37.095 13773-13775/csc214.project03.readynotes I/art: After code cache collection, code=51KB, data=62KB
+05-03 18:36:37.095 13773-13775/csc214.project03.readynotes I/art: Increasing code cache capacity to 256KB
+05-03 18:36:37.516 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:37.516 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:51.778 13773-13773/csc214.project03.readynotes I/System.out: csc214.project03.readynotes.model.Category@a2ecd10
+05-03 18:36:51.785 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214
+05-03 18:36:51.785 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214-Weekday
+05-03 18:36:51.789 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:51.790 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:51.791 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:51.791 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:51.791 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:51.791 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:51.792 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:51.792 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:51.808 13773-13773/csc214.project03.readynotes W/IInputConnectionWrapper: finishComposingText on inactive InputConnection
+05-03 18:36:52.984 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:52.984 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:53.101 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:53.101 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:54.046 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:54.046 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:54.214 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:54.214 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:54.867 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:54.867 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:54.901 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:54.901 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:54.950 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214
+05-03 18:36:54.950 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214-Weekday
+05-03 18:36:55.015 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:55.015 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:55.585 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:55.586 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:55.652 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:55.652 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:57.064 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:57.064 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:57.701 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:57.701 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:57.915 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:57.915 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:57.948 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:57.949 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:57.963 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:36:57.963 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.225 13773-13773/csc214.project03.readynotes D/NOTELIST: SORT ALL
+05-03 18:37:00.227 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE 476ceb9b-81e2-467a-86f9-785945f732b7 blank 2
+05-03 18:37:00.227 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.227 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.227 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020227 createDate=1493850978889 picture_path=null note=blank 2 id=476ceb9b-81e2-467a-86f9-785945f732b7 categories=Weekday
+05-03 18:37:00.229 13773-14452/csc214.project03.readynotes I/OMXClient: MuxOMX ctor
+05-03 18:37:00.232 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE fc4f3be1-381f-452c-93f9-4d1d38a37dd7 hello jhehrgthdfghgdf
+05-03 18:37:00.233 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.233 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.233 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020233 createDate=1493850688484 picture_path=null note=hello jhehrgthdfghgdf id=fc4f3be1-381f-452c-93f9-4d1d38a37dd7 categories=Weekday
+05-03 18:37:00.237 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE fc4f3be1-381f-452c-93f9-4d1d38a37dd7 hello jhehrgthdfghgdf
+05-03 18:37:00.237 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.237 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.237 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020237 createDate=1493850688484 picture_path=null note=hello jhehrgthdfghgdf id=fc4f3be1-381f-452c-93f9-4d1d38a37dd7 categories=Weekday
+05-03 18:37:00.241 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE d72e233a-5c4c-416f-8019-28201d0671a7 this is a CSC 214 note
+05-03 18:37:00.242 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214
+05-03 18:37:00.242 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214-Weekday
+05-03 18:37:00.242 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020242 createDate=1493842861992 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_66e2ec83-788f-4880-9a51-8139dbd37c7e1686460326.jpg note=this is a CSC 214 note id=d72e233a-5c4c-416f-8019-28201d0671a7 categories=CSC 214-Weekday
+05-03 18:37:00.247 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE ca9db65d-3273-4953-8ca2-e91a0cc60601 thus is now more
+05-03 18:37:00.247 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.247 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.247 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020247 createDate=1493842746261 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_68d3891a-e00a-4e51-8c03-c5af1d4e7f7c901811722.jpg note=thus is now more id=ca9db65d-3273-4953-8ca2-e91a0cc60601 categories=Weekday
+05-03 18:37:00.249 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE ca9db65d-3273-4953-8ca2-e91a0cc60601 thus is now more
+05-03 18:37:00.249 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.249 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.250 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020249 createDate=1493842746261 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_68d3891a-e00a-4e51-8c03-c5af1d4e7f7c901811722.jpg note=thus is now more id=ca9db65d-3273-4953-8ca2-e91a0cc60601 categories=Weekday
+05-03 18:37:00.252 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE 1267ef20-8644-4da0-bda5-579b1aad3d8d this is a note
+05-03 18:37:00.252 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.252 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.252 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020252 createDate=1493842591864 picture_path=null note=this is a note id=1267ef20-8644-4da0-bda5-579b1aad3d8d categories=Weekday
+05-03 18:37:00.255 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE 1267ef20-8644-4da0-bda5-579b1aad3d8d this is a note
+05-03 18:37:00.255 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.255 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.255 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020255 createDate=1493842591864 picture_path=null note=this is a note id=1267ef20-8644-4da0-bda5-579b1aad3d8d categories=Weekday
+05-03 18:37:00.257 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com
+05-03 18:37:00.257 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.257 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.257 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020257 createDate=1493843829387 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_01b52eff-143c-4406-979c-c77cc7f1b2dc650556758.jpg note=Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com id=da32be09-fe37-4e3c-a12a-741478b221fa categories=Weekday
+05-03 18:37:00.259 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com
+05-03 18:37:00.259 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.259 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.259 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020259 createDate=1493843829387 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_01b52eff-143c-4406-979c-c77cc7f1b2dc650556758.jpg note=Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com id=da32be09-fe37-4e3c-a12a-741478b221fa categories=Weekday
+05-03 18:37:00.263 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com
+05-03 18:37:00.263 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.263 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.263 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020263 createDate=1493843829387 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_01b52eff-143c-4406-979c-c77cc7f1b2dc650556758.jpg note=Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com id=da32be09-fe37-4e3c-a12a-741478b221fa categories=Weekday
+05-03 18:37:00.266 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new
+05-03 18:37:00.266 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.266 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.266 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020266 createDate=1493850612464 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_2ea428b5-81fc-4c0a-81ad-f7bfc8a14b131329626103.jpg note=this is new new id=a56c0686-0150-415a-8b0b-2a2c8f925e98 categories=Weekday
+05-03 18:37:00.268 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new
+05-03 18:37:00.268 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.268 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.268 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020268 createDate=1493850612464 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_2ea428b5-81fc-4c0a-81ad-f7bfc8a14b131329626103.jpg note=this is new new id=a56c0686-0150-415a-8b0b-2a2c8f925e98 categories=Weekday
+05-03 18:37:00.270 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new
+05-03 18:37:00.270 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.270 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.270 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020270 createDate=1493850612464 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_2ea428b5-81fc-4c0a-81ad-f7bfc8a14b131329626103.jpg note=this is new new id=a56c0686-0150-415a-8b0b-2a2c8f925e98 categories=Weekday
+05-03 18:37:00.273 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE 476ceb9b-81e2-467a-86f9-785945f732b7 blank 2
+05-03 18:37:00.273 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.273 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.273 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020273 createDate=1493850978889 picture_path=null note=blank 2 id=476ceb9b-81e2-467a-86f9-785945f732b7 categories=Weekday
+05-03 18:37:00.275 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE fc4f3be1-381f-452c-93f9-4d1d38a37dd7 hello jhehrgthdfghgdf
+05-03 18:37:00.276 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.276 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.276 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020275 createDate=1493850688484 picture_path=null note=hello jhehrgthdfghgdf id=fc4f3be1-381f-452c-93f9-4d1d38a37dd7 categories=Weekday
+05-03 18:37:00.278 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE fc4f3be1-381f-452c-93f9-4d1d38a37dd7 hello jhehrgthdfghgdf
+05-03 18:37:00.278 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.278 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.278 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020278 createDate=1493850688484 picture_path=null note=hello jhehrgthdfghgdf id=fc4f3be1-381f-452c-93f9-4d1d38a37dd7 categories=Weekday
+05-03 18:37:00.280 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214 SORT
+05-03 18:37:00.280 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE d72e233a-5c4c-416f-8019-28201d0671a7 this is a CSC 214 note
+05-03 18:37:00.280 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214
+05-03 18:37:00.280 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214-Weekday
+05-03 18:37:00.280 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020280 createDate=1493842861992 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_66e2ec83-788f-4880-9a51-8139dbd37c7e1686460326.jpg note=this is a CSC 214 note id=d72e233a-5c4c-416f-8019-28201d0671a7 categories=CSC 214-Weekday
+05-03 18:37:00.283 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE ca9db65d-3273-4953-8ca2-e91a0cc60601 thus is now more
+05-03 18:37:00.283 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.283 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.283 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020283 createDate=1493842746261 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_68d3891a-e00a-4e51-8c03-c5af1d4e7f7c901811722.jpg note=thus is now more id=ca9db65d-3273-4953-8ca2-e91a0cc60601 categories=Weekday
+05-03 18:37:00.285 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE ca9db65d-3273-4953-8ca2-e91a0cc60601 thus is now more
+05-03 18:37:00.285 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.285 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.285 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020285 createDate=1493842746261 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_68d3891a-e00a-4e51-8c03-c5af1d4e7f7c901811722.jpg note=thus is now more id=ca9db65d-3273-4953-8ca2-e91a0cc60601 categories=Weekday
+05-03 18:37:00.287 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE 1267ef20-8644-4da0-bda5-579b1aad3d8d this is a note
+05-03 18:37:00.287 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.287 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.287 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020287 createDate=1493842591864 picture_path=null note=this is a note id=1267ef20-8644-4da0-bda5-579b1aad3d8d categories=Weekday
+05-03 18:37:00.289 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE 1267ef20-8644-4da0-bda5-579b1aad3d8d this is a note
+05-03 18:37:00.289 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.289 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.289 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020289 createDate=1493842591864 picture_path=null note=this is a note id=1267ef20-8644-4da0-bda5-579b1aad3d8d categories=Weekday
+05-03 18:37:00.292 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com
+05-03 18:37:00.292 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.292 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.292 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020292 createDate=1493843829387 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_01b52eff-143c-4406-979c-c77cc7f1b2dc650556758.jpg note=Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com id=da32be09-fe37-4e3c-a12a-741478b221fa categories=Weekday
+05-03 18:37:00.294 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com
+05-03 18:37:00.294 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.294 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.294 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020294 createDate=1493843829387 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_01b52eff-143c-4406-979c-c77cc7f1b2dc650556758.jpg note=Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com id=da32be09-fe37-4e3c-a12a-741478b221fa categories=Weekday
+05-03 18:37:00.296 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com
+05-03 18:37:00.296 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.296 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.296 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020296 createDate=1493843829387 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_01b52eff-143c-4406-979c-c77cc7f1b2dc650556758.jpg note=Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com id=da32be09-fe37-4e3c-a12a-741478b221fa categories=Weekday
+05-03 18:37:00.299 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new
+05-03 18:37:00.299 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.299 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.299 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020299 createDate=1493850612464 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_2ea428b5-81fc-4c0a-81ad-f7bfc8a14b131329626103.jpg note=this is new new id=a56c0686-0150-415a-8b0b-2a2c8f925e98 categories=Weekday
+05-03 18:37:00.301 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new
+05-03 18:37:00.301 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.301 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.301 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020301 createDate=1493850612464 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_2ea428b5-81fc-4c0a-81ad-f7bfc8a14b131329626103.jpg note=this is new new id=a56c0686-0150-415a-8b0b-2a2c8f925e98 categories=Weekday
+05-03 18:37:00.304 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new
+05-03 18:37:00.304 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.304 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.304 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020304 createDate=1493850612464 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_2ea428b5-81fc-4c0a-81ad-f7bfc8a14b131329626103.jpg note=this is new new id=a56c0686-0150-415a-8b0b-2a2c8f925e98 categories=Weekday
+05-03 18:37:00.306 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:37:00.306 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE 476ceb9b-81e2-467a-86f9-785945f732b7 blank 2
+05-03 18:37:00.306 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.306 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.306 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020306 createDate=1493850978889 picture_path=null note=blank 2 id=476ceb9b-81e2-467a-86f9-785945f732b7 categories=Weekday
+05-03 18:37:00.308 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:37:00.308 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE fc4f3be1-381f-452c-93f9-4d1d38a37dd7 hello jhehrgthdfghgdf
+05-03 18:37:00.308 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.308 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.308 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020308 createDate=1493850688484 picture_path=null note=hello jhehrgthdfghgdf id=fc4f3be1-381f-452c-93f9-4d1d38a37dd7 categories=Weekday
+05-03 18:37:00.310 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:37:00.310 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE fc4f3be1-381f-452c-93f9-4d1d38a37dd7 hello jhehrgthdfghgdf
+05-03 18:37:00.310 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.310 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.310 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020310 createDate=1493850688484 picture_path=null note=hello jhehrgthdfghgdf id=fc4f3be1-381f-452c-93f9-4d1d38a37dd7 categories=Weekday
+05-03 18:37:00.312 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:37:00.312 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE d72e233a-5c4c-416f-8019-28201d0671a7 this is a CSC 214 note
+05-03 18:37:00.312 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214
+05-03 18:37:00.312 13773-13773/csc214.project03.readynotes D/NOTE: CSC 214-Weekday
+05-03 18:37:00.312 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020312 createDate=1493842861992 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_66e2ec83-788f-4880-9a51-8139dbd37c7e1686460326.jpg note=this is a CSC 214 note id=d72e233a-5c4c-416f-8019-28201d0671a7 categories=CSC 214-Weekday
+05-03 18:37:00.314 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:37:00.314 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE ca9db65d-3273-4953-8ca2-e91a0cc60601 thus is now more
+05-03 18:37:00.314 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.314 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.314 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020314 createDate=1493842746261 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_68d3891a-e00a-4e51-8c03-c5af1d4e7f7c901811722.jpg note=thus is now more id=ca9db65d-3273-4953-8ca2-e91a0cc60601 categories=Weekday
+05-03 18:37:00.316 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:37:00.316 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE ca9db65d-3273-4953-8ca2-e91a0cc60601 thus is now more
+05-03 18:37:00.316 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.316 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.316 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020316 createDate=1493842746261 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_68d3891a-e00a-4e51-8c03-c5af1d4e7f7c901811722.jpg note=thus is now more id=ca9db65d-3273-4953-8ca2-e91a0cc60601 categories=Weekday
+05-03 18:37:00.318 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:37:00.318 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE 1267ef20-8644-4da0-bda5-579b1aad3d8d this is a note
+05-03 18:37:00.318 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.318 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.318 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020318 createDate=1493842591864 picture_path=null note=this is a note id=1267ef20-8644-4da0-bda5-579b1aad3d8d categories=Weekday
+05-03 18:37:00.319 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:37:00.320 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE 1267ef20-8644-4da0-bda5-579b1aad3d8d this is a note
+05-03 18:37:00.320 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.320 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.320 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020320 createDate=1493842591864 picture_path=null note=this is a note id=1267ef20-8644-4da0-bda5-579b1aad3d8d categories=Weekday
+05-03 18:37:00.321 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:37:00.321 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com
+05-03 18:37:00.321 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.321 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.322 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020321 createDate=1493843829387 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_01b52eff-143c-4406-979c-c77cc7f1b2dc650556758.jpg note=Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com id=da32be09-fe37-4e3c-a12a-741478b221fa categories=Weekday
+05-03 18:37:00.324 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:37:00.324 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com
+05-03 18:37:00.324 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.324 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.324 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020324 createDate=1493843829387 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_01b52eff-143c-4406-979c-c77cc7f1b2dc650556758.jpg note=Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com id=da32be09-fe37-4e3c-a12a-741478b221fa categories=Weekday
+05-03 18:37:00.325 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:37:00.326 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE da32be09-fe37-4e3c-a12a-741478b221fa Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com
+05-03 18:37:00.326 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.326 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.326 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020326 createDate=1493843829387 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_01b52eff-143c-4406-979c-c77cc7f1b2dc650556758.jpg note=Photo:
+                                                                       914-3299247
+                                                                       (914)329-9247
+                                                                       4325789697896
+                                                                       
+                                                                       gmail.com
+                                                                       google.com
+                                                                       help@gmail.com id=da32be09-fe37-4e3c-a12a-741478b221fa categories=Weekday
+05-03 18:37:00.328 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:37:00.328 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new
+05-03 18:37:00.328 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.328 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.328 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020328 createDate=1493850612464 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_2ea428b5-81fc-4c0a-81ad-f7bfc8a14b131329626103.jpg note=this is new new id=a56c0686-0150-415a-8b0b-2a2c8f925e98 categories=Weekday
+05-03 18:37:00.329 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:37:00.330 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new
+05-03 18:37:00.330 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.330 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.330 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020330 createDate=1493850612464 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_2ea428b5-81fc-4c0a-81ad-f7bfc8a14b131329626103.jpg note=this is new new id=a56c0686-0150-415a-8b0b-2a2c8f925e98 categories=Weekday
+05-03 18:37:00.332 13773-13773/csc214.project03.readynotes D/NOTE: Weekday SORT
+05-03 18:37:00.332 13773-13773/csc214.project03.readynotes E/NOTELIST: UPDATE a56c0686-0150-415a-8b0b-2a2c8f925e98 this is new new
+05-03 18:37:00.332 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.332 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.332 13773-13773/csc214.project03.readynotes E/NOTELIST: edit=1493851020332 createDate=1493850612464 picture_path=/storage/emulated/0/Android/data/csc214.project03.readynotes/files/Pictures/IMG_2ea428b5-81fc-4c0a-81ad-f7bfc8a14b131329626103.jpg note=this is new new id=a56c0686-0150-415a-8b0b-2a2c8f925e98 categories=Weekday
+05-03 18:37:00.337 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.337 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.338 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.338 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.339 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.339 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.339 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.339 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:00.358 13773-14457/csc214.project03.readynotes I/OMXClient: MuxOMX ctor
+05-03 18:37:00.666 13773-14468/csc214.project03.readynotes I/OMXClient: MuxOMX ctor
+05-03 18:37:00.982 13773-14471/csc214.project03.readynotes I/OMXClient: MuxOMX ctor
+05-03 18:37:01.082 13773-14478/csc214.project03.readynotes I/OMXClient: MuxOMX ctor
+05-03 18:37:01.296 13773-14485/csc214.project03.readynotes I/OMXClient: MuxOMX ctor
+05-03 18:37:01.376 13773-14488/csc214.project03.readynotes I/OMXClient: MuxOMX ctor
+05-03 18:37:01.561 13773-13773/csc214.project03.readynotes W/IInputConnectionWrapper: finishComposingText on inactive InputConnection
+05-03 18:37:02.708 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:02.708 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:05.351 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+05-03 18:37:05.352 13773-13773/csc214.project03.readynotes D/NOTE: Weekday
+frfsdf

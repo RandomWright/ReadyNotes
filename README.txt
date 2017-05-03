@@ -6,6 +6,8 @@ CSC 214
 Project 03
 The Kitchen Sink Project
 
+The goal of Project 3 is to create an app of your own design that meets requirements.
+
 ReadyNote
 
 This is a self sorting Notes app. There are a lot of notes apps already out there but the goal of
@@ -21,9 +23,13 @@ activities based on when you put notes in. Also have reminders based on what you
 
 The main Fragment is where you can create notes and view a list of all the notes. You can also add a photo as a note or send a note as a email or reminder. The notes are saved in a SQL database and auto sorted by time and key words. 
 
+There are dialogs to see the image and the full note.
+
 The List Fragment is the notes sorted into the weekday and CSC 214 catorgies. 
 
 The Advance Fragment are used to record videos.
+
+It is a pretty GREEN color;
 
 Basic Features:
 They are there.
@@ -46,4 +52,19 @@ Playing sounds with SoundPool
 -and some random other places
 
 Send Email of the Note with Send Email Button
+-only works if you have email set up on your photo
+
 Notes with phone numbers, emails, or website will link out to other apps
+-so photo numers will open photo app
+
+
+
+I affirm that i did not give or receive any unauthorized help on this project, and that all work will is my own
+
+----("all work will is my own???) all work will be my own
+
+
+Future plans:
+Add more catorgizes and custom options
+-had to focus more on the requirments then important app things
+I will still be adding things on github after the project is over
