@@ -121,6 +121,6 @@ public class Note {
 
     @Override
     public String toString(){
-        return notes;
+        return id.toString() + " " + notes;
     }
 }

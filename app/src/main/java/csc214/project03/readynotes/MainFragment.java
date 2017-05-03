@@ -1,6 +1,7 @@
 package csc214.project03.readynotes;
 
 
+import android.app.Activity;
 import android.app.FragmentManager;
 import android.content.Intent;
 import android.net.Uri;
@@ -43,7 +44,7 @@ public class MainFragment extends Fragment {
     private Button mSave;
     private Button mPhotoButton;
     private Button mSendEmail;
-    private  Button mReButton;
+    private Button mReButton;
     private EditText mNote;
     private NotesList mainNotes;
 
@@ -52,6 +53,7 @@ public class MainFragment extends Fragment {
     private String mCurrentPhotoPath;
     private boolean yesPhoto;
     private MusicPlayer player;
+    private Note note;
 
 
     public MainFragment() {
@@ -64,7 +66,7 @@ public class MainFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_main, container, false);
-        final Note note = new Note();
+        note = new Note();
 
         player = new MusicPlayer(getContext());
 
@@ -200,6 +202,20 @@ public class MainFragment extends Fragment {
         }
     }
 
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if(resultCode == Activity.RESULT_CANCELED){
+            if(requestCode == 3){
+                note = mainNotes.getNote(data.getStringExtra(FullNoteFragment.ARG_ID));
+                mNote.setText(note.getNotes());
+                mCurrentPhotoPath = note.getPicPath();
+                yesPhoto = (note.getPicPath() != null);
+            }
+        }
+
+
+    }
 
 
 }

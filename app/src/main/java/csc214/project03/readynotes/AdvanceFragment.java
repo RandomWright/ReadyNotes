@@ -93,7 +93,7 @@ public class AdvanceFragment extends Fragment {
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if(requestCode == Activity.RESULT_OK){
+        if(resultCode == Activity.RESULT_OK){
             Uri uri = Uri.parse(mCurrentVideoPath);
             mVideo.setVideoURI(uri);
             mVideo.start();

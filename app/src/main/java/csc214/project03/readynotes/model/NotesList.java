@@ -23,6 +23,7 @@ import csc214.project03.readynotes.database.NoteDbSchema.NoteTable;
 public class NotesList {
     private static NotesList sNotes;
     public ArrayList<Category> sCategoryList;
+    private static List<Note> noteList;
 
     private static final String TAG = "NOTELIST";
     private final SQLiteDatabase mNoteDatabase;
@@ -46,7 +47,7 @@ public class NotesList {
 
     public void sortAll(){
         Log.d(TAG, "SORT ALL");
-        List<Note> noteList = getAllNotes();
+        getAllNotes();
         for (Category c: sCategoryList) {
             for (Note n: noteList) {
                 c.sort(n);
@@ -56,11 +57,24 @@ public class NotesList {
     }
 
     public void addNote(Note note){
-        for (Category c: sCategoryList) {
-            c.sort(note);
+        Log.e(TAG, "ADD " + note);
+        Boolean newnote = true;
+        for(Note n: noteList){
+            if (note.getId().toString().equals(n.getId().toString())) {
+                Log.e(TAG, note.getId().toString());
+                newnote = false;
+            }
         }
-        ContentValues values = getNotesValues(note);
-        mNoteDatabase.insert(NoteTable.TABLENAME, null, values);
+        if(newnote){
+            for (Category c: sCategoryList) {
+                c.sort(note);
+            }
+            ContentValues values = getNotesValues(note);
+            mNoteDatabase.insert(NoteTable.TABLENAME, null, values);
+        }
+        else {
+            updateNote(note);
+        }
     }
 
     public void deleteNote(Note note){
@@ -69,6 +83,7 @@ public class NotesList {
     }
 
     public void updateNote(Note note){
+        Log.e(TAG, "UPDATE " + note);
         String id = note.getId().toString();
         note.setEditDate(new Date());
         ContentValues values = getNotesValues(note);
@@ -76,6 +91,20 @@ public class NotesList {
                 values,
                 NoteTable.Cols.ID + "=?",
                 new String[]{id});
+    }
+
+    public Note getNote(String id){
+        NoteCursorWrapper wrapper = queryNotes(NoteTable.Cols.ID + "=?", new String[]{id});
+        Note note;
+        try {
+            wrapper.moveToFirst();
+            note = wrapper.getNote();
+            Log.e(TAG, "GET " + note);
+        }finally {
+            wrapper.close();
+        }
+
+        return note;
     }
 
     public List<Note> getAllNotes(){
@@ -97,6 +126,7 @@ public class NotesList {
             wrapper.close();
         }
 
+        noteList = list;
         return list;
     }
 
