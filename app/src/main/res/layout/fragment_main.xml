@@ -11,8 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1.5"
-        android:autoLink="web|email|phone"
-        android:linksClickable="true"
+        style="@style/CustomMakeNote"
         android:id="@+id/noteText"/>
 
     <LinearLayout
@@ -32,10 +31,16 @@
             android:id="@+id/saveButton"
             android:text="@string/save"/>
         <Button
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/emailButton"
-            android:text="Send as Email"/>
+            android:text="Send Email"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/Reminder"
+            android:text="@string/remind_me"/>
 
     </LinearLayout>
 

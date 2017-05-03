@@ -29,18 +29,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:id="@+id/add_Photo_Button"
+                android:layout_weight="1"
                 android:text="@string/add_photo"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:id="@+id/saveButton"
                 android:text="@string/save"/>
             <Button
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:id="@+id/emailButton"
                 android:text="Send as Email"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/Reminder"
+                android:text="@string/remind_me"/>
 
         </LinearLayout>
 

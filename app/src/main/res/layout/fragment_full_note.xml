@@ -29,18 +29,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/fullEdit"
+            style="@style/TextViewCustomTitle2"
             android:hint="@string/edit_date"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/fullCreate"
+            style="@style/TextViewCustomTitle2"
             android:hint="@string/create_date"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/fullCat"
+            style="@style/TextViewCustomTitle2"
             android:hint="@string/none"/>
     </LinearLayout>
 

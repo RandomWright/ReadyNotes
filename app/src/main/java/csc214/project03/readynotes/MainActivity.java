@@ -66,6 +66,11 @@ public class MainActivity extends AppCompatActivity {
                         .commit();
                 handled = true;
                 break;
+            case R.id.menu_advance:
+                AdvanceFragment replace3 = new AdvanceFragment();
+                getFragmentManager().beginTransaction()
+                        .replace(R.id.frame_main_act, replace3)
+                        .commit();
             default:
                 handled = super.onOptionsItemSelected(item);
         }

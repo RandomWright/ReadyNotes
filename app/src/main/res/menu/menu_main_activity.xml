@@ -15,4 +15,10 @@
         android:title="@string/sort"
         app:showAsAction="ifRoom|withText" />
 
+    <item
+        android:id="@+id/menu_advance"
+        android:icon="@drawable/ic_adav"
+        android:title="@string/advance"
+        app:showAsAction="ifRoom|withText" />
+
 </menu>

@@ -11,4 +11,9 @@
     <string name="none">None</string>
     <string name="main">Main</string>
     <string name="sort">Sort</string>
+    <string name="weekday">WEEKDAY</string>
+    <string name="reminder">Note Reminder</string>
+    <string name="remind_me">Remind me</string>
+    <string name="video">VIDEO</string>
+    <string name="advance">Advance</string>
 </resources>

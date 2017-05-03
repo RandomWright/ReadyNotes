@@ -24,9 +24,11 @@ import java.io.IOException;
 import java.util.List;
 import java.util.UUID;
 
+import csc214.project03.readynotes.model.MusicPlayer;
 import csc214.project03.readynotes.model.Note;
 import csc214.project03.readynotes.model.NotesList;
 import csc214.project03.readynotes.recycler.NoteAdapter;
+import csc214.project03.readynotes.services.Reminder;
 
 
 /**
@@ -41,6 +43,7 @@ public class MainFragment extends Fragment {
     private Button mSave;
     private Button mPhotoButton;
     private Button mSendEmail;
+    private  Button mReButton;
     private EditText mNote;
     private NotesList mainNotes;
 
@@ -48,6 +51,7 @@ public class MainFragment extends Fragment {
     private NoteAdapter mAdapter;
     private String mCurrentPhotoPath;
     private boolean yesPhoto;
+    private MusicPlayer player;
 
 
     public MainFragment() {
@@ -62,6 +66,8 @@ public class MainFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_main, container, false);
         final Note note = new Note();
 
+        player = new MusicPlayer(getContext());
+
         mainNotes = NotesList.getNotes(getContext());
         mainNotes.sortAll();
 
@@ -72,6 +78,7 @@ public class MainFragment extends Fragment {
         mNote = (EditText)view.findViewById(R.id.noteText);
 
         if (savedInstanceState != null) {
+            player.play(0);  //plays sounds when you turn the screen
             mNote.setText(savedInstanceState.getString("NOTE"));
             mCurrentPhotoPath = savedInstanceState.getString("PATH");
             yesPhoto = savedInstanceState.getBoolean("YES");
@@ -125,6 +132,7 @@ public class MainFragment extends Fragment {
         mSendEmail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                player.play(4);
                 Intent i = new Intent(Intent.ACTION_SEND);
                 i.setType("message/rfc822");
                 i.putExtra(Intent.EXTRA_SUBJECT, "ReadyNote");
@@ -134,6 +142,15 @@ public class MainFragment extends Fragment {
                 } catch (android.content.ActivityNotFoundException ex) {
                     Toast.makeText(getActivity(), "There are no email clients installed.", Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+
+        mReButton = (Button)view.findViewById(R.id.Reminder);
+        mReButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Reminder.newReminder(getContext(), mNote.getText().toString());
+                Toast.makeText(getActivity(), "Set a reminder of this messege", Toast.LENGTH_LONG).show();
             }
         });
 
@@ -149,6 +166,7 @@ public class MainFragment extends Fragment {
         }
         else{
             mAdapter.update(noteList);
+            player.play(5);
         }
     }
     
@@ -181,5 +199,7 @@ public class MainFragment extends Fragment {
             }
         }
     }
+
+
 
 }
