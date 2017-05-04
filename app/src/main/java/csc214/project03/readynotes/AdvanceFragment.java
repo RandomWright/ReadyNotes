@@ -2,27 +2,25 @@ package csc214.project03.readynotes;
 
 
 import android.app.Activity;
-import android.content.Context;
-import android.content.ContextWrapper;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.os.Environment;
 import android.provider.MediaStore;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.content.FileProvider;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.VideoView;
 
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.UUID;
 
@@ -36,6 +34,7 @@ public class AdvanceFragment extends Fragment {
     private static final int REQUEST_VIDEO_CAPTURE = 6;
     private static final String TAG = "ADVANCE";
 
+
     private String mCurrentVideoPath;
     private Button mVideoButton;
     private VideoView mVideo;
@@ -43,6 +42,8 @@ public class AdvanceFragment extends Fragment {
     public AdvanceFragment() {
         // Required empty public constructor
     }
+
+
 
 
     @Override
@@ -66,6 +67,7 @@ public class AdvanceFragment extends Fragment {
             }
         });
 
+
         return view;
     }
 
@@ -88,6 +90,12 @@ public class AdvanceFragment extends Fragment {
                 intent.putExtra(MediaStore.EXTRA_OUTPUT, videoURI);
                 startActivityForResult(intent, REQUEST_VIDEO_CAPTURE);
             }
+            FragmentActivity context = (FragmentActivity) getActivity();
+            FragmentManager manager = context.getSupportFragmentManager();
+                manager.beginTransaction()
+                        .add(R.id.song_list, new SongFragment())
+                        .commit();
+
         }
     }
 
@@ -101,5 +109,6 @@ public class AdvanceFragment extends Fragment {
 
 
     }
+
 
 }
